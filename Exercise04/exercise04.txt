@@ -1,1 +1,2 @@
-
+Without collapse: Only the outermost loop (r) is parallelized. Max 5 threads can be used.
+With collapse(2): Both loops are collapsed into a single iteration space of 50 iterations, distributed among all threads for better load balancing.

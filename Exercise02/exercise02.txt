@@ -1,1 +1,1 @@
-
+The #pragma omp single directive specifies that the enclosed block of code will be executed by only one thread in the team (not necessarily the master thread). Other threads will wait at an implicit barrier at the end of the single block unless a nowait clause is specified.

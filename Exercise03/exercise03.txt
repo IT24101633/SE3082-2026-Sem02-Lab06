@@ -1,1 +1,1 @@
-
+The #pragma omp master directive specifies that the enclosed block of code will be executed only by the master thread of the team (thread ID 0). There is no implicit barrier at the end of a master block, so other threads will continue executing without waiting.
